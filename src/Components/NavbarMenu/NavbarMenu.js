@@ -22,7 +22,8 @@ const NavbarBg = styled(Navbar)`{
     background-color: #344955;
     border-bottom: 3px solid #F9AA33;
     font-size: 18px;
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 1;
     height: 10vh;
 }`;

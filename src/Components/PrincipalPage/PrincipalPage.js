@@ -5,7 +5,7 @@ import ButtonSusoft from '../Button/ButtonSusoft';
 
 const PrincipalPage = () => {
     return (
-        <MainPageSection className="container">
+        <MainPageSection className="container-fluid">
             <MainFlexBox className="d-flex justify-content-center align-items-center">
                 <PrincipalTitle />
             </MainFlexBox>
