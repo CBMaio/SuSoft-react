@@ -9,9 +9,11 @@ const PrincipalPage = () => {
             <MainFlexBox className="d-flex justify-content-center align-items-center">
                 <PrincipalTitle />
             </MainFlexBox>
-            <div>
-                <ButtonSusoft />
-            </div>
+            <ButtonBox className="container d-flex align-items-center justify-content-end">
+                <ButtonSusoft 
+                    btnText="SuSoft"
+                />
+            </ButtonBox>
         </MainPageSection>
     );
 };
@@ -19,7 +21,7 @@ const PrincipalPage = () => {
 export default PrincipalPage;
 
 const MainPageSection = styled.section`{
-    background: linear-gradient(180deg, #E1E2E1 50%, #F5F5F6 0);
+    background: linear-gradient(180deg, #E1E2E1 50%, /* #F5F5F6 */ #5f7481 0);
     height: 90vh;
 }`;
 
@@ -28,5 +30,8 @@ const MainFlexBox = styled.main`{
     height: 50%;
 }`;
 
-
+const ButtonBox = styled.div`{
+    position: relative;
+    top: -19px;
+}`; 
 

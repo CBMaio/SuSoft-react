@@ -7,12 +7,14 @@ import BoxText from './BoxText';
 const WorksSection = () => {
     return (
         <WorksSectionStyle className="container-fluid">
+            <div className="row py-5 mx-auto">
+                <BoxText 
+                    text="¡Gracias por confiar en nosotros!"
+                />
+            </div>
             <div className="row">
                 <CarouselComponent />
             </div>
-            <BoxText 
-                text="¡Gracias por confiar en nosotros!"
-            />
         </WorksSectionStyle>
     );
 };

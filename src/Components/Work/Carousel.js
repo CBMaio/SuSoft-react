@@ -4,7 +4,7 @@ import Cards from './Cards';
 
 const CarouselComponent = () => {
     
-    const business = ["eynes.jpeg", "fbasetv.jpeg", "itelkom.jpeg", "kasan.jpeg", "pevgrow.jpeg", "ubitech.jpeg"]
+    const business = ["eynes.jpeg", "fbasetv.jpeg", "itelkom.jpeg", "kasan.jpeg", "pevgrow.jpeg", "ubitech.jpeg", "mgi.jpeg"]
 
     return (
     

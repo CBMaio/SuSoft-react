@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 import PrincipalPage from './Components/PrincipalPage/PrincipalPage';
 import WorksSection from './Components/Work/WorksSection';
-
+import ContactSection from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <NavbarMenu />
         <PrincipalPage/>
         <WorksSection />
+        <ContactSection />
     </FontPage>
   );
 }

@@ -16,8 +16,8 @@ const TextStyle = styled.h4`{
 }`
 
 const TextContainer = styled.div`{
-/*     border: 2px solid #c17b00; */
+/*     box-shadow: 0 0 2px rgba(0,0,0, .5);
     background: #F5F5F6; 
-    border-radius: 7px;
+    border-radius: 7px; */
     padding: 10px;
 }`

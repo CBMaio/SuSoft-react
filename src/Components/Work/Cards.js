@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Cards = (props) => {
 
     return(
-        <CardBoxStyle className="col-12 d-flex justify-content-center align-items-center mx-auto my-5">
+        <CardBoxStyle className="col-12 d-flex justify-content-center align-items-center mx-auto">
             <CarrouselImgStyle variant="top" src={props.cardsImg} className="mx-0"/>
         </CardBoxStyle>
     );
