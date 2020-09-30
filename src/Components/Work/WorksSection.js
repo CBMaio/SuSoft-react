@@ -7,7 +7,7 @@ import BoxText from './BoxText';
 const WorksSection = () => {
     return (
         <WorksSectionStyle className="container-fluid">
-            <div className="row py-5 mx-auto">
+            <div className="row py-4 mx-auto">
                 <BoxText 
                     text="¡Gracias por confiar en nosotros!"
                 />

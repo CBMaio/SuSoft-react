@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Button from 'react-bootstrap/Button'
+import ButtonSusoft from '../Button/ButtonSusoft';
 
 class FormContact extends Component {
 
     render() {
         return(
 
-            <div className= "row mx-2 p-2 mt-4">
-                <div className="col-12 mx-auto">
+            <FormFontStyle className= "row mx-2 p-2 mt-4">
+                <div className="col-12 col-md-6 mx-auto">
                     <form>
                         <div className="form-group">
                             <label htmlFor='name'>Nombre completo:</label>
@@ -28,12 +28,16 @@ class FormContact extends Component {
                         </div>
                         <div className="row justify-content-center">
                             <div className="col-md-5 col-sm-12">
-                                <ButtonFormStyle className="btn btn-block btn-block">Enviar</ButtonFormStyle>
+                                <ButtonSusoft className="btn btn-block"
+                                    background= '#344955'
+                                    btnText= 'Enviar'
+                                    colorText='#fff'
+                                />
                             </div>
                         </div>
                     </form>
                 </div>               
-            </div>
+            </FormFontStyle>
         );
     };
 };
@@ -44,15 +48,6 @@ const TextareaStyle = styled.textarea`{
     resize: none;
 }`;
 
-const ButtonFormStyle = styled(Button)`{
-    background: #344955;
-    border: none;
-    outline: none;
-    transition: all .2s ease-in-out;
-
-    &:hover {
-        outline: none;
-        border: none;
-        background: #344955; 
-    }
+const FormFontStyle = styled.div`{
+    font-size: 18px;
 }`

@@ -20,7 +20,7 @@ export default NavbarMenu;
 
 const NavbarBg = styled(Navbar)`{
     background-color: #344955;
-    border-bottom: 3px solid #F9AA33;
+    border-bottom: 3px solid #c17b00;
     font-size: 18px;
     position: sticky;
     top: 0;

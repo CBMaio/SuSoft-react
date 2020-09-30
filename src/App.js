@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import PrincipalPage from './Components/PrincipalPage/PrincipalPage';
 import WorksSection from './Components/Work/WorksSection';
 import ContactSection from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <PrincipalPage/>
         <WorksSection />
         <ContactSection />
+        <Footer />
     </FontPage>
   );
 }

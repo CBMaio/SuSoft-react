@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PrincipalTitle from './PrincipalTitle';
+import { ArrowDown } from 'react-bootstrap-icons';
 import ButtonSusoft from '../Button/ButtonSusoft';
 
 const PrincipalPage = () => {
@@ -11,7 +12,9 @@ const PrincipalPage = () => {
             </MainFlexBox>
             <ButtonBox className="container d-flex align-items-center justify-content-end">
                 <ButtonSusoft 
+                    background= '#f9aa33'
                     btnText="SuSoft"
+                    arrowIcon = {<ArrowDown/>}
                 />
             </ButtonBox>
         </MainPageSection>

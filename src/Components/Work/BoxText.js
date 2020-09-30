@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BoxText = (props) => {
+    const {text, icon} = props
     return(
         <TextContainer className="container col-12 col-lg-6 ">
-           <TextStyle className="text-center">{props.text}</TextStyle> 
+           <TextStyle className="d-flex align-items-center justify-content-center text-center">{text} <span className='ml-2'> {icon} </span></TextStyle> 
         </TextContainer>
     );
 };
