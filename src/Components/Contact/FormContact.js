@@ -27,7 +27,7 @@ class FormContact extends Component {
                             <TextareaStyle className="form-control" maxLength="300" rows="4" cols="40"></TextareaStyle>
                         </div>
                         <div className="row justify-content-center">
-                            <div className="col-md-5 col-sm-12">
+                            <div className="col-lg-5 col-sm-12">
                                 <ButtonSusoft className="btn btn-block"
                                     background= '#344955'
                                     btnText= 'Enviar'

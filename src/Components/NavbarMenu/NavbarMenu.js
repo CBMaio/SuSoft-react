@@ -9,8 +9,8 @@ const NavbarMenu = () => {
             <Navbar.Brand href="#home">SuSoft</Navbar.Brand>
             <Nav className="d-flex justify-content-center justify-content-md-start w-100">
                 <Nav.Link href="#home">Inicio</Nav.Link>
-                <Nav.Link href="#features">Trabajos</Nav.Link>
-                <Nav.Link href="#pricing">Contacto</Nav.Link>
+                <Nav.Link href="#works">Trabajos</Nav.Link>
+                <Nav.Link href="#contact">Contacto</Nav.Link>
             </Nav>
         </NavbarBg>
     );

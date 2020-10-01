@@ -4,11 +4,12 @@ import styled from 'styled-components';
 
 const ButtonSusoft = (props) => {
 
-        const {background, btnText, colorText, className, arrowIcon} = props;
+        const {background, btnText, colorText, className, arrowIcon, buttonFunction} = props;
 
         return (
             <div className={styled.ButtonBox}>
                 <ButtonStyle 
+                onClick = {buttonFunction}
                 className = {className}
                     style = {{
                         background: `${background}`,

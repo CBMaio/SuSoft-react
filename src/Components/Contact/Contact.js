@@ -8,19 +8,22 @@ import { GrMail } from 'react-icons/gr';
 const ContactSection = () => {
    
     return (
-        <section className="container-fluid py-3">
+        <section className="container-fluid py-3 position-relative">
+            <PositionDiv id="contact" ></PositionDiv>
             <BoxText 
                 text= '¡Tu opinión nos interesa, contáctanos!'
             />
-            <BoxFontStyle className="container row mx-auto">
-                
-                <div className="col-md-5 col-sm-12 mx-auto">
-                        <ButtonSusoft className="btn btn-block"
-                            background= '#f9aa33'
-                            btnText= 'Formulario de Contacto'
-                        />
+            <BoxFontStyle className="row mx-auto mx-2">
+            
+                <div className="row justify-content-center mx-auto col-md-6 col-sm-12">
+                    <div className="col-lg-5 col-sm-12 ">
+                            <ButtonSusoft className="btn btn-block"
+                                background= '#f9aa33'
+                                btnText= 'Formulario de Contacto'
+                            />
+                    </div>
                 </div>
-                
+            
             </BoxFontStyle>
             <FormContact />
             
@@ -39,8 +42,9 @@ export default ContactSection;
 
 const BoxFontStyle = styled.div`{
     font-size: 20px;
-}`
+}`;
 
-const MailSusoft = styled.p`{
-
-}`
+const PositionDiv = styled.div`{
+    position: absolute;
+    top: -10vh;
+}`;
